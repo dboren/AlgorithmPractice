@@ -6,13 +6,15 @@ var maxNum = function(arr) {
 
     for (var i = 0; i <= arr.length; i++) {
 
-        if (currMax < arr[i]) {
-            currMax = arr[i];
-            console.log("currMax: ", currMax)
-            console.log("arr[i]: ", arr[i])
+        var currNum = arr[i];
 
-        } else {
-            return arr[i];
+        if (currMax < currNum) {
+            currMax = currNum;
+            console.log("currMax: ", currMax)
+            console.log("currNum: ", currNum)
+
         }
     }
+
+    return currMax;
 };
