@@ -8,7 +8,7 @@ var vowelCount = function(str) {
 
     for (i = 0; i < str.length; i++) {
 
-        if (str[i] == a || e || i || o || u) {
+        if (str[i] == "a" || "e" || "i" || "o" || "u") {
 
             totalVowels++;
         }
