@@ -2,17 +2,21 @@
 
 var vowelCount = function(str) {
 
-    let totalVowels = 0;
+    var result = 0;
 
-    str.toLowerCase();
+    // str.toLowerCase();
 
     for (i = 0; i < str.length; i++) {
+        
+        var currentLetter = str[i].toLowerCase();
+        console.log("current letter: ", currentLetter)
 
-        if (str[i] == "a" || "e" || "i" || "o" || "u") {
+        if (currentLetter === "a" || currentLetter === "e" || currentLetter === "i" || currentLetter === "o" || currentLetter === "u") {
 
-            totalVowels++;
+            result++;
+            console.log(result);
         }
     }
 
-    return totalVowels;
+    return result;
 };
