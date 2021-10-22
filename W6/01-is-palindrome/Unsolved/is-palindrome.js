@@ -3,16 +3,18 @@
 var isPalindrome = function(str) {
 
     let input = str;
+    console.log("input: " + input)
 
     function invertStr(input) {
 
         let strArr = split(input);
+        console.log("strArr: ", strArr)
 
         let invArr = reverse(strArr);
+        console.log("invArr: ", invArr)
 
         let inverseStr = join(invArr);
-
-        return inverseStr
+        console.log("inverseStr: " + inverseStr)
         
     }
 
