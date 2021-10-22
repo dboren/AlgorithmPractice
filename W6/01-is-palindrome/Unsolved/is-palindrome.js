@@ -7,13 +7,13 @@ var isPalindrome = function(str) {
 
     function invertStr(input) {
 
-        let strArr = split(input);
+        let strArr = input.split();
         console.log("strArr: ", strArr)
 
-        let invArr = reverse(strArr);
+        let invArr = strArr.reverse();
         console.log("invArr: ", invArr)
 
-        let inverseStr = join(invArr);
+        let inverseStr = invArr.join();
         console.log("inverseStr: " + inverseStr)
         
     }
