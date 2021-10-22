@@ -5,23 +5,32 @@ var isPalindrome = function(str) {
     let input = str;
     console.log("input: " + input)
 
-    function invertStr(input) {
+    let inverseStr = input.split("").reverse().join("");
 
-        let strArr = input.split("");
-        console.log("strArr: ", strArr)
+    console.log("inverseStr: " + inverseStr);
 
-        let invArr = strArr.reverse();
-        console.log("invArr: ", invArr)
+    // function invertStr(input) {
 
-        let inverseStr = invArr.join("");
-        console.log("inverseStr: " + inverseStr)
+    //     let strArr = input.split("");
+    //     console.log("strArr: ", strArr)
+
+    //     let invArr = strArr.reverse();
+    //     console.log("invArr: ", invArr)
+
+    //     let inverseStr = invArr.join("");
+    //     console.log("inverseStr: " + inverseStr)
+
+    //     return result;
         
-    }
+    // }
 
-    invertStr(input);
+    // invertStr(input);
+
 
     if (input === inverseStr) {
         
         return true
+    } else {
+        return false
     }
 };
