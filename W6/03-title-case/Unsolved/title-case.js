@@ -2,6 +2,7 @@
 
 var titleCase = function(str) {
 
+    var result = [];
     var words = str.split(' ');
     console.log("split words: " + words);
 
@@ -11,5 +12,10 @@ var titleCase = function(str) {
 
         word[0] = word[0].toUpperCase();
         console.log(word);
+
+        result.push(word.join(''));
+        console.log(result);
     }
+
+    return result.join(' ');
 };
