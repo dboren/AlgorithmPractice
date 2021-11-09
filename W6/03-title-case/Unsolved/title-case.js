@@ -9,7 +9,7 @@ var titleCase = function(str) {
 
         var word = words[i].split('');
 
-        word[0].toUpperCase();
+        word[0] = word[0].toUpperCase();
         console.log(word);
     }
 };
