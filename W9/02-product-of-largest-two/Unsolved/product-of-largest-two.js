@@ -9,4 +9,10 @@ var productOfLargestTwo = function(arr) {
 
     largest = Math.max(...arr);
     console.log(largest);
+
+    arr.filter(largest.valueOf);
+    console.log(arr);
+
+    runnerUp = Math.max(...arr);
+    console.log(runnerUp);
 };
