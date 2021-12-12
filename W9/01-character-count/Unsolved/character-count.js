@@ -8,5 +8,14 @@ var characterCount = function(str) {
 
         var currentChar = str[i];
         console.log(currentChar);
+
+        if (currentChar in result) {
+            result.currentChar++;
+            console.log(result);
+        } else {
+            result[currentChar];
+        }
     }
+
+    return result;
 };
