@@ -16,5 +16,9 @@ var productOfLargestTwo = function(arr) {
     // runnerUp = Math.max(...newArr);
     // console.log(runnerUp);
 
-    
+    for (i = 0; i < arr.length; i++) {
+        
+    }
+
+
 };
