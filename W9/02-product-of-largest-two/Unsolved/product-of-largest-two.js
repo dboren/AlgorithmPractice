@@ -5,5 +5,8 @@ var productOfLargestTwo = function(arr) {
     var largest;
     var runnerUp;
 
+    console.log(arr);
 
+    largest = Math.max(...arr);
+    console.log(largest);
 };
