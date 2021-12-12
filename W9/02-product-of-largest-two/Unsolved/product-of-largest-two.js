@@ -27,11 +27,12 @@ var productOfLargestTwo = function(arr) {
 
         } else if (currentNumber > runnerUp || runnerUp === null) {
 
-            runnerUp = currentNumber
+            runnerUp = currentNumber;
         }
 
-        result = larget * runnerUp;
     }
+
+    return largest * runnerUp;
 
 
 };
