@@ -10,10 +10,10 @@ var characterCount = function(str) {
         console.log(currentChar);
 
         if (currentChar in result) {
-            result.currentChar++;
+            result[currentChar]++;
             console.log(result);
         } else {
-            result[currentChar];
+            result[currentChar] = 1;
         }
     }
 
