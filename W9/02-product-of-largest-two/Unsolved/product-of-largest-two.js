@@ -2,8 +2,8 @@
 
 var productOfLargestTwo = function(arr) {
 
-    var largest;
-    var runnerUp;
+    var largest = null;
+    var runnerUp = null;
 
     console.log(arr);
 
@@ -17,7 +17,20 @@ var productOfLargestTwo = function(arr) {
     // console.log(runnerUp);
 
     for (i = 0; i < arr.length; i++) {
-        
+
+        var currentNumber = arr[i];
+
+        if (currentNumber > largest || largest === null) {
+
+            runnerUp = largest;
+            largest = currentNumber;
+
+        } else if (currentNumber > runnerUp || runnerUp === null) {
+
+            runnerUp = currentNumber
+        }
+
+        result = larget * runnerUp;
     }
 
 
