@@ -7,12 +7,14 @@ var productOfLargestTwo = function(arr) {
 
     console.log(arr);
 
-    largest = Math.max(...arr);
-    console.log(largest);
+    // largest = Math.max(...arr);
+    // console.log(largest);
 
-    arr.filter(largest.valueOf);
-    console.log(arr);
+    // var newArr = arr.filter(int => (int >= largest));
+    // console.log(newArr);
 
-    runnerUp = Math.max(...arr);
-    console.log(runnerUp);
+    // runnerUp = Math.max(...newArr);
+    // console.log(runnerUp);
+
+    
 };
