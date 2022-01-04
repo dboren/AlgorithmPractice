@@ -1,7 +1,3 @@
 // Write code to create a function that accepts a string and returns the string in camelCase
 
-var camelCase = function(str) {
-    for (var i = 0; i < str.length; i++) {
-        
-    }
-};
+var camelCase = function(str) {};
