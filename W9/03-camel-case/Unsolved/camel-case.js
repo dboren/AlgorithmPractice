@@ -4,13 +4,17 @@ var camelCase = function(str) {
 
     var camelString = "";
     var words = str.toLowerCase().split(" ");
-    console.log(words);
+    console.log("words: " + words);
 
     for (var i = 0; i < words.length; i++) {
 
         var word = words[i];
-        console.log(word);
-        
+        console.log("word: " + word);
+
+        var chars = word.split(" ");
+        console.log("characters: " + chars);
+
+
     }
 
     // for (var i = 0; i < str.length; i++) {
