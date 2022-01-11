@@ -2,27 +2,29 @@
 
 var camelCase = function(str) {
 
-    var camelString = []
+    var camelString = "";
+    var words = str.toLowerCase().split(" ");
+    console.log(words);
 
-    for (var i = 0; i < str.length; i++) {
+    // for (var i = 0; i < str.length; i++) {
 
-        console.log(str[i]);
+    //     console.log(str[i]);
 
-        if (str[i] === " " ) {
+    //     if (str[i] == " " ) {
 
-            // upperify str[i+1] and delete str[i]
+    //         // upperify str[i+1] and delete str[i]
 
-            str[i+1].toUpperCase();
+    //         str[i+1].toUpperCase();
 
-            str[i].pop()
+    //         str[i].pop()
 
-            console.log("string so far: " + str)
+    //         console.log("string so far: " + str)
 
-        }
+    //     }
 
-        console.log("new string: " + str)
+    //     console.log("new string: " + str)
 
         
 
-    }
+    // }
 };
