@@ -23,8 +23,14 @@ var camelCase = function(str) {
             console.log(chars[0]);
         }
 
+        camelString += chars.join("");
+
+        console.log(camelString);
+
 
     }
+
+    return camelString;
 
     // for (var i = 0; i < str.length; i++) {
 
