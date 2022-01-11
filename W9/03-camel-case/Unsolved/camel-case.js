@@ -6,6 +6,13 @@ var camelCase = function(str) {
     var words = str.toLowerCase().split(" ");
     console.log(words);
 
+    for (var i = 0; i < words.length; i++) {
+
+        var word = words[i];
+        console.log(word);
+        
+    }
+
     // for (var i = 0; i < str.length; i++) {
 
     //     console.log(str[i]);
