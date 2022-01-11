@@ -6,6 +6,8 @@ var camelCase = function(str) {
 
     for (var i = 0; i < str.length; i++) {
 
+        console.log(str[i]);
+
         if (str[i] === " " ) {
 
             // upperify str[i+1] and delete str[i]
@@ -20,7 +22,7 @@ var camelCase = function(str) {
 
         console.log("new string: " + str)
 
-        return
+        
 
     }
 };
