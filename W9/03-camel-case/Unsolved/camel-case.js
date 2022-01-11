@@ -11,8 +11,17 @@ var camelCase = function(str) {
         var word = words[i];
         console.log("word: " + word);
 
-        var chars = word.split(" ");
+        var chars = word.split("");
         console.log("characters: " + chars);
+
+        if (i > 0) {
+
+            console.log(chars[0]);
+
+            chars[0] = chars[0].toUpperCase();
+
+            console.log(chars[0]);
+        }
 
 
     }
