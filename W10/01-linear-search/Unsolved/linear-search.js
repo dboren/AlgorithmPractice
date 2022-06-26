@@ -12,10 +12,16 @@ var linearSearch = function(arr, target) {
         if (arr[i] == target) {
             
              result = i;
+             console.log("i: " + i);
+             console.log("result: " + result);
+             console.log("val: " + arr[i]);
 
         } else {
 
              result = -1;
+             console.log("i: " + i);
+             console.log("result: " + result);
+             console.log("val: " + arr[i]);
         }
     };
 
