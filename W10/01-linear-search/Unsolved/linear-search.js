@@ -5,27 +5,29 @@
 
 var linearSearch = function(arr, target) {
 
-    let result;
-
     for (let i=0; i < arr.length; i++) {
 
-        if (arr[i] == target) {
+        var currNum = arr[i];
+
+        if (currNum === target) {
             
-             result = i;
-             console.log("i: " + i);
-             console.log("result: " + result);
-             console.log("val: " + arr[i]);
+            return i
 
-        } else {
-
-             result = -1;
-             console.log("i: " + i);
-             console.log("result: " + result);
-             console.log("val: " + arr[i]);
         }
-    };
+    }
 
-    return result;
+        result = -1
+        // console.log("i: " + i);
+        // console.log("result: " + result);
+        // console.log("val: " + arr[i]);
+        return result
+
+    // if (result == -2) {
+
+    //     result = -1
+    // };
+
+    // return result;
 
 
 };
