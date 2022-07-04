@@ -20,7 +20,7 @@ var isUnique = function(arr) {
 
     if (counter > 0) {
 
-        return true;
+        return false;
 
-    } else return false;
+    } else return true;
 };
