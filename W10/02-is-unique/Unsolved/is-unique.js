@@ -12,7 +12,15 @@ var isUnique = function(arr) {
         if (arr[i] == arr[i + selector]) {
 
             counter++;
-        }
+            selector++;
+
+        } selector++;
 
     }
+
+    if (counter > 0) {
+
+        return true;
+
+    } else return false;
 };
