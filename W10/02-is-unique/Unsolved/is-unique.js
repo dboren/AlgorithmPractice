@@ -4,8 +4,15 @@
 var isUnique = function(arr) {
 
     let counter = 0;
+    let selector = 1;
+
 
     for (let i = 0; i < arr.length; i++) {
-        
+
+        if (arr[i] == arr[i + selector]) {
+
+            counter++;
+        }
+
     }
 };
