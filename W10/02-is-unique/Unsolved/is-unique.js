@@ -8,7 +8,7 @@ var isUnique = function(arr) {
     for (var i = 0; i < arr.length; i++) {
       var currentNumber = arr[i];
 
-      console.info("map: " + numMap);
+      console.info(numMap);
       console.log("current: " + currentNumber);
   
       if (numMap[currentNumber] === true) {
@@ -21,6 +21,8 @@ var isUnique = function(arr) {
     return true;
   };
 
+
+// function attempted below fails because it can only compare the current loop cycle's number to the next number in the array and will not return false properly unless the repeated number immediately follows itself.
 
 // var isUnique = function(arr) {
 
