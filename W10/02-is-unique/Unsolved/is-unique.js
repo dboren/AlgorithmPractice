@@ -11,11 +11,11 @@ var isUnique = function(arr) {
       console.info(numMap);
       console.log("current: " + currentNumber);
   
-      if (numMap[currentNumber] === true) {
+      if (numMap[currentNumber] === true)  { //cannot be true if this is the first time this value of currentNumber is read
         return false;
       }
   
-      numMap[currentNumber] = true;
+      numMap[currentNumber] = true; //since previous condition could not be met, key of currentNumber with value of true is added to numMap
     }
   
     return true;
